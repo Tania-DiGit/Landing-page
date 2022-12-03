@@ -1,2 +1,3 @@
 # Landing-page
 Odin Project landing page
+This is my firs complete web page, created using html, css, flex...
