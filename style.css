@@ -1,6 +1,10 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .header {
@@ -15,7 +19,6 @@ body {
     flex-direction: column; 
     padding: 60px 100px;
     margin: 0;
-    justify-content: center;
     align-items: center;
    
 }
@@ -23,7 +26,8 @@ body {
     background-color: #1f2937;
     flex-direction: row;
     gap: 30px;
-      
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .logo {
@@ -57,16 +61,14 @@ a  {
     width:50%;
     gap: 10px;
 
+
 }
 .main-title {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
 }
-.subtext {
-    color: #e5e7eb;
-    font-size: 18px;
-}
+
 .image {
     display: flex;
     background-color: slategray;
@@ -77,21 +79,16 @@ a  {
     width: 50%;   
 }
 .two {
-    background-color: aquamarine;
-    justify-content: center;
-    align-items: center;
+    color: #1f2937;
     gap: 30px;
-    
 }
 .title {
     font-size: 36px;
-    color: #1f2937;
     font-weight: bolder;
 }
 
 .all-items {
     display: flex;
-    
     gap: 30px;
 
 }
@@ -104,14 +101,14 @@ img {
 .text {
     text-align: center;
     max-width: 150px;
-    color: #1f2937;
 }
 button {
     background-color: #3882f6;
     color: white;
     font-weight: 700;
     margin: 0;
-    padding: 4px 15px;
+    font-size: 15px;
+    padding: 5px 15px;
     width: fit-content;
     height: fit-content;
     border-radius: 8px;
@@ -130,4 +127,37 @@ button {
     align-self: flex-end;
     font-size: 24px;
     margin-top: 8px;
+}
+
+.four {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 100px 130px;
+    gap: 40px;
+}
+
+.bottom-title {
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+
+.bottom-signup {
+    border: 2px solid #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 50px 100px;
+    
 }
