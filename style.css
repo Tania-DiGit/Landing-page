@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    max-width: 80rem;
+    width: 80rem;
     margin-left: auto;
     margin-right: auto; 
 }
@@ -12,7 +12,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 100px;
+    padding: 0px 100px;
+}
+.logo {
+    width: 150px;
+    height: auto;
 }
 .section {
     display: flex;
@@ -25,8 +29,10 @@ body {
 .one {
     background-color: #1f2937;
     flex-direction: row;
+    justify-content: space-between;
     gap: 30px;
     font-size: 18px;
+    padding-top: 0;
     color: #e5e7eb;
 }
 
@@ -71,12 +77,10 @@ a  {
 
 .image {
     display: flex;
-    background-color: slategray;
-    color: white;
-    justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 50%;   
+    justify-content: center;
+    height: 300px;
+    width: auto;   
 }
 .two {
     color: #1f2937;
@@ -103,7 +107,7 @@ img {
     max-width: 150px;
 }
 button {
-    background-color: #3882f6;
+    background-color: #28549b;
     color: white;
     font-weight: 700;
     margin: 0;
@@ -132,7 +136,7 @@ button {
 .four {
     flex-direction: row;
     justify-content: space-between;
-    background-color: #3882f6;
+    background-color: #4e6e9b;
     border-radius: 10px;
     font-size: 18px;
     color: #e5e7eb;
